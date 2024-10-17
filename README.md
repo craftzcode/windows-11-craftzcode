@@ -22,3 +22,90 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
 2. **Scoop**
 
    Install Scoop by following the instructions on the [Scoop website](https://scoop.sh/#/).
+
+3. **Node.js (LTS version)**
+
+   Install Node.js using Scoop:
+   ```powershell
+   scoop install node-lts
+   ```
+
+4. **Nerd Fonts**
+
+   Add the Nerd Fonts bucket and install the Hack NF Mono font:
+   ```powershell
+   scoop bucket add nerd-fonts
+   scoop install Hack-NF-Mono
+   ```
+
+5. **Windows Terminal**
+
+   Configure Windows Terminal to your preferences.
+
+6. **Oh My Posh**
+
+   Install Oh My Posh with the following command:
+   ```powershell
+   scoop install oh-my-posh
+   ```
+
+7. **Terminal Icons**
+
+   Install Terminal Icons:
+   ```powershell
+   scoop install terminal-icons
+   ```
+
+8. **Zoxide**
+
+   Install Zoxide for smarter directory navigation:
+   ```powershell
+   scoop install zoxide
+   ```
+
+9. **Eza**
+
+    Install Eza, a modern replacement for `ls`:
+   ```powershell
+   scoop install eza
+   ```
+
+10. **FZF**
+
+    Install FZF for fuzzy searching:
+    ```powershell
+    scoop install fzf
+    ```
+
+11. **PSFZF**
+
+    Install PSFZF for integrating FZF with PowerShell:
+    ```powershell
+    scoop install psfzf
+    ```
+
+12. **Set PowerShell Configuration Path**
+
+    Set your default PowerShell profile configuration by editing `$PROFILE`:
+    ```powershell
+    notepad $PROFILE
+    ```
+
+    Add the following line to the file:
+    ```powershell
+    . $env:USERPROFILE\.config\powershell\user_profile.ps1
+    ```
+
+13. **Copy Configuration Files**
+
+    Copy all configuration files from the `.config` folder to your local system.
+
+14. **Visual Studio Code**
+
+    Install VSCode by adding the extras bucket and then installing:
+    ```powershell
+    scoop bucket add extras
+    scoop install vscode
+    ```
+
+    Sign in to VSCode using your GitHub account to sync all your settings.
