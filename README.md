@@ -109,3 +109,10 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
     ```
 
     Sign in to VSCode using your GitHub account to sync all your settings.
+
+15. **Bun**
+
+    Install Bun using Scoop:
+   ```powershell
+   scoop install bun
+   ```
