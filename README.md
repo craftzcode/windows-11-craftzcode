@@ -89,6 +89,7 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
 
     Set your default PowerShell profile configuration by editing `$PROFILE`:
     ```powershell
+    New-Item -Path $PROFILE -ItemType File -Force
     notepad $PROFILE
     ```
 
