@@ -27,7 +27,7 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
 
    Install Node.js using Scoop:
    ```powershell
-   scoop install node-lts
+   scoop install nodejs-lts
    ```
 
 4. **Nerd Fonts**
