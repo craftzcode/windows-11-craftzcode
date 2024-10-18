@@ -53,6 +53,7 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
 
    Install Terminal Icons:
    ```powershell
+   scoop bucket add extras
    scoop install terminal-icons
    ```
 
@@ -104,7 +105,6 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
 
     Install VSCode by adding the extras bucket and then installing:
     ```powershell
-    scoop bucket add extras
     scoop install vscode
     ```
 
