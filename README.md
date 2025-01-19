@@ -114,9 +114,9 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
 15. **Bun**
 
     Install Bun using Scoop:
-   ```powershell
-   scoop install bun
-   ```
+    ```powershell
+    scoop install bun
+    ```
 
 16. **Wezterm (Optional)**
 
