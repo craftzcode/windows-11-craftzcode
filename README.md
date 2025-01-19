@@ -117,3 +117,17 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
    ```powershell
    scoop install bun
    ```
+
+16. **Wezterm (Optional)**
+
+   [Wezterm](https://wezfurlong.org/wezterm/installation.html)
+
+   Create Wezterm Config File
+   ```shell
+   mkdir -p ~/.config/wezterm
+   nano ~/.config/wezterm/wezterm.lua
+   ```
+
+   Copy my wezterm.lua
+
+   Exit and Re-run Wezterm
