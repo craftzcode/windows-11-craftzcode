@@ -41,7 +41,7 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
 
 6. **Terminal Icons**
 
-  Install `Terminal Icons` by following [Terminal-Icons Installation](https://github.com/devblackops/Terminal-Icons?tab=readme-ov-file#installation)
+   Install `Terminal Icons` by following [Terminal-Icons Installation](https://github.com/devblackops/Terminal-Icons?tab=readme-ov-file#installation)
 
 7. **Zoxide**
 
