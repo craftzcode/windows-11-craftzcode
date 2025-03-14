@@ -19,73 +19,56 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
    ```
    Alternatively, you can download Git from their [official website](https://git-scm.com/downloads/win).
 
-2. **Scoop**
-
-   Install Scoop by following the instructions on the [Scoop website](https://scoop.sh/#/).
-
-3. **Node.js (LTS version)**
+2. **Node.js (LTS version)**
 
    Install Node.js using Scoop:
    ```powershell
    scoop install nodejs-lts
    ```
 
-4. **Nerd Fonts**
+3. **JetBrainsMono Nerd Font**
 
-   Add the Nerd Fonts bucket and install the Hack NF Mono font:
-   ```powershell
-   scoop bucket add nerd-fonts
-   scoop install Hack-NF-Mono
-   ```
+   Install via [winget](https://winstall.app/apps/DEVCOM.JetBrainsMonoNerdFont)
 
-5. **Windows Terminal**
+4. **Windows Terminal**
 
    Configure Windows Terminal to your preferences.
 
-6. **Oh My Posh**
+5. **Oh My Posh**
 
-   Install Oh My Posh with the following command:
-   ```powershell
-   scoop install oh-my-posh
+   Install `Oh-My-Posh` by following [Oh-My-Posh Windows Installation](https://ohmyposh.dev/docs/installation/windows#installation)
+   Copy or download my theme `craftzcode.omp.json`
+   ```shell
+   curl -o .config/oh-my-posh/craftzcode.omp.json https://raw.githubusercontent.com/craftzcode/ubuntu-craftzcode/main/.config/oh-my-posh/craftzcode.omp.json
    ```
 
-7. **Terminal Icons**
+6. **Terminal Icons**
 
-   Install Terminal Icons:
-   ```powershell
-   scoop bucket add extras
-   scoop install terminal-icons
-   ```
+  Install `Terminal Icons` by following [Terminal-Icons Installation](https://github.com/devblackops/Terminal-Icons?tab=readme-ov-file#installation)
 
-8. **Zoxide**
+7. **Zoxide**
 
-   Install Zoxide for smarter directory navigation:
-   ```powershell
-   scoop install zoxide
-   ```
+   Install `Zoxide` for smarter directory navigation by following [Zoxide Installation](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation)
 
-9. **Eza**
+8. **Eza**
 
-    Install Eza, a modern replacement for `ls`:
-   ```powershell
-   scoop install eza
-   ```
+    Install `Eza` a modern replacement for `ls` by following [Eza Installation](https://github.com/eza-community/eza?tab=readme-ov-file#installation)
 
-10. **FZF**
+11. **FZF**
 
     Install FZF for fuzzy searching:
     ```powershell
     scoop install fzf
     ```
 
-11. **PSFZF**
+12. **PSFZF**
 
     Install PSFZF for integrating FZF with PowerShell:
     ```powershell
     scoop install psfzf
     ```
 
-12. **Set PowerShell Configuration Path**
+13. **Set PowerShell Configuration Path**
 
     Set your default PowerShell profile configuration by editing `$PROFILE`:
     ```powershell
@@ -98,11 +81,11 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
     . $env:USERPROFILE\.config\powershell\user_profile.ps1
     ```
 
-13. **Copy Configuration Files**
+14. **Copy Configuration Files**
 
     Copy all configuration files from the `.config` folder to your local system.
 
-14. **Visual Studio Code**
+15. **Visual Studio Code**
 
     Install VSCode by adding the extras bucket and then installing:
     ```powershell
@@ -111,11 +94,11 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
 
     Sign in to VSCode using your GitHub account to sync all your settings.
 
-15. **Bun**
+16. **Bun**
 
     [Bun](https://bun.sh/)
 
-16. **Wezterm (Optional)**
+17. **Wezterm (Optional)**
 
     [Wezterm](https://wezfurlong.org/wezterm/installation.html)
 
