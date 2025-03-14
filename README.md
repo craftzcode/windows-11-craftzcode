@@ -21,10 +21,7 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
 
 2. **Node.js (LTS version)**
 
-   Install Node.js using Scoop:
-   ```powershell
-   scoop install nodejs-lts
-   ```
+   Install Node.js by following [Node.js Download](https://nodejs.org/en/download)
 
 3. **JetBrainsMono Nerd Font**
 
@@ -54,21 +51,15 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
 
     Install `Eza` a modern replacement for `ls` by following [Eza Installation](https://github.com/eza-community/eza?tab=readme-ov-file#installation)
 
-11. **FZF**
+9. **FZF**
 
-    Install FZF for fuzzy searching:
-    ```powershell
-    scoop install fzf
-    ```
+    Install `FZF` for fuzzy searching by following [FZF Windows Packages](https://github.com/junegunn/fzf?tab=readme-ov-file#windows-packages)
 
-12. **PSFZF**
+10. **PSFZF**
 
-    Install PSFZF for integrating FZF with PowerShell:
-    ```powershell
-    scoop install psfzf
-    ```
+    Install `PSFZF` for integrating `FZF` with PowerShell by following [PSFZF Installation](https://github.com/kelleyma49/PSFzf?tab=readme-ov-file#installation)
 
-13. **Set PowerShell Configuration Path**
+11. **Set PowerShell Configuration Path**
 
     Set your default PowerShell profile configuration by editing `$PROFILE`:
     ```powershell
@@ -81,26 +72,22 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
     . $env:USERPROFILE\.config\powershell\user_profile.ps1
     ```
 
-14. **Copy Configuration Files**
+12. **Copy Configuration Files**
 
     Copy all configuration files from the `.config` folder to your local system.
 
-15. **Visual Studio Code**
+13. **Cursor AI Editor**
 
-    Install VSCode by adding the extras bucket and then installing:
-    ```powershell
-    scoop install vscode
-    ```
+    Install `Cursor AI Editor` by following [Cursor AI Editor Download](https://www.cursor.com/)
 
-    Sign in to VSCode using your GitHub account to sync all your settings.
+14. **Bun & PNPM**
 
-16. **Bun**
+    Install `Bun` by following [Bun Windows Installation]([https://bun.sh/)](https://bun.sh/docs/installation#windows)
+    Install `PNPM` by following [PNPM Windows Installation](https://pnpm.io/installation#on-windows)
 
-    [Bun](https://bun.sh/)
+15. **Wezterm (Optional)**
 
-17. **Wezterm (Optional)**
-
-    [Wezterm](https://wezfurlong.org/wezterm/installation.html)
+    Install `Wezterm` by following [Wezterm Installation](https://wezfurlong.org/wezterm/installation.html)
 
     Create Wezterm Config File
     ```shell
